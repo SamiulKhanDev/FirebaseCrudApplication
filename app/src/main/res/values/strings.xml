@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Firebase Crud Application</string>
+    <string name="username">UserName</string>
+    <string name="already_user_login_here">Already user?Login here</string>
+    <string name="confirm_password">Confirm PassWord</string>
+    <string name="register">REGISTER</string>
+    <string name="password">PassWord</string>
+    <string name="itemprice">ItemPrice</string>
+    <string name="itemname">ItemName</string>
+    <string name="additem">AddItem</string>
+    <string name="enter_item_price">Enter Item Price</string>
+    <string name="enter_item_name">Enter Item Name</string>
+    <string name="item_suitable_for">Item Suitable For</string>
+    <string name="item_image_address_link">Item Image Address Link</string>
+    <string name="login">LOGIN</string>
+    <string name="item_image_link">Item Image Link</string>
+    <string name="add_item_description">Add Item Description</string>
+    <string name="enter_item_s_new_name">enter_item\'s_new_name</string>
+    <string name="enter_item_s_new_price">enter_item\'s_new_price</string>
+    <string name="item_new_link">Item New Link</string>
+    <string name="item_image_new_link">Item Image New Link</string>
+    <string name="add_item_s_new_description">Add Item\'s New Description</string>
+    <string name="add_edited_item">Add Edited Item</string>
+    <string name="email_address">Email Address</string>
+    <string name="not_registered_sign_up">Not registered?Sign Up</string>
+    <string name="item_link">Item Link</string>
+    <string name="course_name">Course Name</string>
+    <string name="price">Price</string>
+    <string name="todo">TODO</string>
+    <string name="item_name">Item Name</string>
+
+
+</resources>

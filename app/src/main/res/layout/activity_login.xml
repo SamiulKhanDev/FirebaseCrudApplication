@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/green_shade_1"
+    tools:context=".LoginActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loginuserContainer"
+        android:layout_width="398dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+
+        app:hintTextColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        app:placeholderText="@string/email_address"
+        app:placeholderTextColor="@color/blue_shade_2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/logingUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="28dp"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text="@string/email_address"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/logingPasswordContainer"
+        android:layout_width="398dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:hint="@string/password"
+        app:hintTextColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginuserContainer"
+        app:layout_constraintVertical_bias="0.027"
+        app:placeholderText="@string/password">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+
+
+            android:layout_marginEnd="28dp"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/logingButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logingPasswordContainer"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/not_registered_sign_up"
+        android:textColor="#4A148C"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logingButton"
+        app:layout_constraintVertical_bias="0.502" />
+</androidx.constraintlayout.widget.ConstraintLayout>
